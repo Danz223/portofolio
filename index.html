@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dafi Nur Fajri - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>Dafi<span>.Dev</span></h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">Tentang</a></li>
+                <li><a href="#projects" class="nav-link">Projek</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Kontak</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="stars"></div>
+        <div class="hero-content">
+            <h2 class="greeting">Halo, Saya</h2>
+            <h1 class="name">Dafi Nur Fajri</h1>
+            <p class="subtitle">Pemrogram | Bot Developer | Fotografer | Pramuka Aktif</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">Lihat Projek</a>
+                <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Tentang Saya</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Saya adalah seorang mahasiswa yang passionate tentang pemrograman, khususnya dalam bidang bot development dan AI. Selain coding, saya juga aktif dalam kegiatan pramuka dan memiliki hobi fotografi yang mendalam.</p>
+                    <p>Saya telah mengembangkan berbagai bot WhatsApp yang canggih dan script automation yang membantu banyak orang. Saya percaya bahwa teknologi dapat membuat hidup lebih mudah dan lebih efisien.</p>
+                    
+                    <div class="age-section">
+                        <h3>📅 Tanggal Lahir & Umur</h3>
+                        <div class="birthdate-display">
+                            <p><strong>Tanggal Lahir:</strong> 4 Mei 2008</p>
+                            <p><strong>Umur Saya Sekarang:</strong> <span id="liveAge" class="age-highlight">16</span> tahun</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <h3>10+</h3>
+                        <p>Projek Selesai</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Bot WhatsApp</h3>
+                        <p>Multi-Purpose</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>AI Integration</h3>
+                        <p>Advanced</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Photography</h3>
+                        <p>Professional</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projek Terbaru</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Kitsune Multi Device</h3>
+                    <p>Bot WhatsApp multi-device dengan fitur AI downloader, pembuatan sticker, dan berbagai perintah canggih lainnya.</p>
+                    <div class="project-tags">
+                        <span class="tag">WhatsApp Bot</span>
+                        <span class="tag">AI</span>
+                        <span class="tag">Multi-Device</span>
+                    </div>
+                    <a href="https://github.com/Danz223" class="project-link">
+                        <i class="fas fa-external-link-alt"></i> Lihat Projek
+                    </a>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Levi AI</h3>
+                    <p>Bot WhatsApp berbasis AI yang terintegrasi dengan website untuk memberikan pengalaman interaktif yang maksimal.</p>
+                    <div class="project-tags">
+                        <span class="tag">WhatsApp Bot</span>
+                        <span class="tag">AI</span>
+                        <span class="tag">Website</span>
+                    </div>
+                    <a href="https://github.com/Danz223" class="project-link">
+                        <i class="fas fa-external-link-alt"></i> Lihat Projek
+                    </a>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Script & Automation</h3>
+                    <p>Berbagai script dan tool automation yang saya buat untuk meningkatkan produktivitas dan efisiensi kerja.</p>
+                    <div class="project-tags">
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">Automation</span>
+                    </div>
+                    <a href="https://github.com/Danz223" class="project-link">
+                        <i class="fas fa-external-link-alt"></i> GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Keahlian Saya</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <h4>Programming Languages</h4>
+                    <div class="skill-tags">
+                        <span>JavaScript</span>
+                        <span>Python</span>
+                        <span>HTML/CSS</span>
+                        <span>Node.js</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h4>Bot Development</h4>
+                    <div class="skill-tags">
+                        <span>WhatsApp Bot</span>
+                        <span>Baileys</span>
+                        <span>API Integration</span>
+                        <span>Multi-Device</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h4>AI & Automation</h4>
+                    <div class="skill-tags">
+                        <span>AI Integration</span>
+                        <span>Web Scraping</span>
+                        <span>Downloader</span>
+                        <span>Image Processing</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h4>Other Skills</h4>
+                    <div class="skill-tags">
+                        <span>Photography</span>
+                        <span>Team Leadership</span>
+                        <span>Problem Solving</span>
+                        <span>Teaching</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Hubungi Saya</h2>
+            <div class="contact-content">
+                <p class="contact-intro">Tertarik untuk berkolaborasi atau ingin bertanya? Silakan hubungi saya melalui salah satu channel di bawah!</p>
+                
+                <div class="contact-methods">
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h4>Email</h4>
+                        <p>dafinurfajri3@gmail.com</p>
+                        <a href="mailto:dafinurfajri3@gmail.com" class="contact-link">Kirim Email</a>
+                    </div>
+
+                    <div class="contact-card">
+                        <i class="fas fa-map-location-dot"></i>
+                        <h4>Alamat</h4>
+                        <p>Desa Senepo, Kec. Slahung<br>Kab. Ponorogo, Jawa Timur</p>
+                        <a href="https://maps.google.com/?q=Senepo+Slahung+Ponorogo" class="contact-link" target="_blank">Lihat Maps</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <i class="fas fa-whatsapp"></i>
+                        <h4>WhatsApp</h4>
+                        <p>082181966095</p>
+                        <a href="https://wa.me/6282181966095" class="contact-link">Hubungi</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <i class="fas fa-youtube"></i>
+                        <h4>YouTube</h4>
+                        <p>@Danz_Devan</p>
+                        <a href="https://www.youtube.com/@Danz_Devan" class="contact-link" target="_blank">Kunjungi</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <i class="fas fa-github"></i>
+                        <h4>GitHub</h4>
+                        <p>@Danz223</p>
+                        <a href="https://github.com/Danz223" class="contact-link" target="_blank">Lihat Profil</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <i class="fas fa-instagram"></i>
+                        <h4>Instagram</h4>
+                        <p>@dfinrf</p>
+                        <a href="https://www.instagram.com/dfinrf/" class="contact-link" target="_blank">Follow</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Dafi Nur Fajri. Semua hak dilindungi.</p>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">Tentang</a>
+                <a href="#projects">Projek</a>
+                <a href="#contact">Kontak</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
